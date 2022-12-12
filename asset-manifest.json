@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ArjinAlbay/arjinalbay.github.io/static/css/main.6f89f0f1.css",
-    "main.js": "/ArjinAlbay/arjinalbay.github.io/static/js/main.f73fe8df.js",
+    "main.js": "/ArjinAlbay/arjinalbay.github.io/static/js/main.f4d68041.js",
     "index.html": "/ArjinAlbay/arjinalbay.github.io/index.html",
     "main.6f89f0f1.css.map": "/ArjinAlbay/arjinalbay.github.io/static/css/main.6f89f0f1.css.map",
-    "main.f73fe8df.js.map": "/ArjinAlbay/arjinalbay.github.io/static/js/main.f73fe8df.js.map"
+    "main.f4d68041.js.map": "/ArjinAlbay/arjinalbay.github.io/static/js/main.f4d68041.js.map"
   },
   "entrypoints": [
     "static/css/main.6f89f0f1.css",
-    "static/js/main.f73fe8df.js"
+    "static/js/main.f4d68041.js"
   ]
 }
