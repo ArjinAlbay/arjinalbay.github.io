@@ -3,17 +3,10 @@
 @tailwind utilities;
 
 
-:root {
-    --my-color: #fff;
-    /* or any other variables/style */
-  }
-  [data-theme='dark'] {
-    --my-color: #0D1117;
-  }
-  [data-theme='light'] {
-    --my-color: #FFF;
-  }
+h1,h2,h3,h4,h5,h6 {
+    @apply text-orange-300
+}
 
-  body {
-    background-color: var(--my-color);
-  }
+p {
+    @apply text-white
+}

@@ -1,19 +1,38 @@
-import { useEffect } from 'react'
+import Blog from './Routes/Blog';
+import CV from './Routes/CV';
+import Home from './Routes/Home';
 import RootLayout from './Routes/RootLayout'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import { themeChange } from 'theme-change'
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      {
+        index: true,
+        element: <Home> </Home>,
+      },
+      {
+        path: "cv",
+        element: <CV> </CV>,
+      },
+      {
+        path: "blog",
+        element: <Blog></Blog>,
+      },
+    ],
+  },
+]);
+
 function App() {
   
- 
-  useEffect(() => {
-    themeChange(false)
-    // 👆 false parameter is required for react project
-  }, [])
   return (
-    <>
-       
-      <RootLayout />
-    </>
+   
+      <RouterProvider router={router} />
+   
   )
 }
 
