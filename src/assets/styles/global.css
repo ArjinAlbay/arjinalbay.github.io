@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.app.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+.main-content {
+  padding-top: 60px;
+  margin-top: 100px;
+  padding: 20px;
+  flex-grow: 1;
+}
