@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.module.css";
+import "./Home.css";
 import { Icon } from "semantic-ui-react";
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
       <div className="profile-section">
         <img
-          src="/path/to/your/profile-picture.jpg"
+          src="../../../public/assets/neo.jpg"
           alt="Profile"
           className="profile-picture"
         />

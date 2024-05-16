@@ -1,0 +1,31 @@
+.article-container {
+  padding: 20px;
+}
+
+.table-of-contents {
+  margin-bottom: 20px;
+}
+
+.table-of-contents ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.table-of-contents li {
+  margin-bottom: 5px;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+}
+
+.tag {
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

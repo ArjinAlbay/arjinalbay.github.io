@@ -1,8 +1,10 @@
 import React, { useContext } from "react";
 import AppRouter from "./router/Router";
 import { ThemeContext } from "./context/ThemeContet";
-import "./App.module.css";
+
 import "./assets/styles/global.css";
+// import "./assets/styles/HomePage.css";
+// import "./assets/styles/Home.css";
 const App = () => {
   const { theme } = useContext(ThemeContext);
 

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust for the fixed navbar height */
+  height: 100%;
   width: 100%;
 }
 

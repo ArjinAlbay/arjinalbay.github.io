@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Menu, Button, Icon } from "semantic-ui-react";
 import { NavLink } from "react-router-dom";
 
-import "./Navbar.module.css";
+import "./Navbar.css";
 import { ThemeContext } from "../../context/ThemeContet";
 
 const Navbar = () => {

@@ -1,7 +1,8 @@
 import React from "react";
-import "./Resume.module.css";
+import "./Resume.css";
 
 const Resume = () => {
+  const pdfURL = "/assets/resume/ArjinAlbay_CV.pdf";
   return (
     <div className="resume-container">
       <embed
