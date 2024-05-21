@@ -1,12 +1,24 @@
 .resume-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
 }
 
-.resume-pdf {
-  width: 100%;
-  height: 100%;
+.download-link {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.download-link:hover {
+  background-color: #ffffff;
+  color: #007bff;
 }

@@ -1,23 +1,38 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .app.light {
   background-color: #fff;
-  color: #000;
+  color: #1a1a1a;
 }
 
 .app.dark {
-  background-color: #121212;
+  background-color: #1a1a1a;
   color: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: greenyellow;
+}
+
 .main-content {
-  padding-top: 60px;
+  padding: 60px 20px 20px 20px; /* Üst, sağ, alt, sol padding değerleri */
   margin-top: 75px;
-  padding: 20px;
   flex-grow: 1;
 }

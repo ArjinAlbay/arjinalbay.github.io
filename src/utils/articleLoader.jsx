@@ -3,23 +3,22 @@ import { marked } from "marked";
 export const loadArticles = () => {
   // Normally, you might fetch these dynamically or load them from a config file
   return [
-    {
-      id: 1,
-      title: "Example Article 1",
-      summary:
-        "This is the summary of example article 1. It covers the main points and provides an overview of the content.",
-      filePath: "/articles/article1.md",
-    },
+    // {
+    //   id: 1,
+    //   title: "Example Article 1",
+    //   summary:
+    //     "This is the summary of example article 1. It covers the main points and provides an overview of the content.",
+    //   filePath: "../../public/articles/article1.md",
+    // },
     {
       id: 2,
-      title: "Understanding React Context",
+      title: "Understanding Golang Interfaces",
       summary:
-        "This article provides an in-depth look into React Context API and how to use it effectively in your applications.",
-      filePath: "/articles/article2.md",
+        "Golang interfaces define behavior without specific implementations, enabling polymorphism and modular, testable code through implicit satisfaction, dependency injection, and mocking.",
+      filePath: "../../public/articles/article2.md",
     },
   ];
 };
-
 export const loadArticleContent = async (filePath) => {
   const response = await fetch(filePath);
   const text = await response.text();

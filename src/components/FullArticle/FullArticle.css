@@ -2,19 +2,6 @@
   padding: 20px;
 }
 
-.table-of-contents {
-  margin-bottom: 20px;
-}
-
-.table-of-contents ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.table-of-contents li {
-  margin-bottom: 5px;
-}
-
 .content {
   margin-bottom: 20px;
 }
