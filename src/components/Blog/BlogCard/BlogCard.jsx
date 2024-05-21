@@ -2,9 +2,9 @@ import React from "react";
 import { Card } from "semantic-ui-react";
 import "./BlogCard.module.css";
 
-const BlogCard = ({ title, summary }) => {
+const BlogCard = ({ id, title, summary, onCardClick }) => {
   return (
-    <Card>
+    <Card onClick={() => onCardClick(id)}>
       <Card.Content>
         <Card.Header>{title}</Card.Header>
         <Card.Description>{summary}</Card.Description>
@@ -12,5 +12,4 @@ const BlogCard = ({ title, summary }) => {
     </Card>
   );
 };
-
 export default BlogCard;
