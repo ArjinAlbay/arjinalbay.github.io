@@ -6,11 +6,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="profile-section">
-        <img
-          src="../../../public/assets/neo.jpg"
-          alt="Profile"
-          className="profile-picture"
-        />
+        <img src="/assets/neo.jpg" alt="Profile" className="profile-picture" />
         <h1>Arjin Albay</h1>
         <h2>Full Stack Developer</h2>
         <p>
