@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windows XP Style Blog</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="light">
+    <div class="container">
+      <div class="header">Yesterday's Web</div>
+      <div class="nav">
+        <a href="#" id="home-link">Home</a>
+        <a href="#" id="projects-link">My Projects</a>
+        <button id="light-theme" class="xp-button theme-button ml-auto">
+          Light
+        </button>
+        <button id="dark-theme" class="xp-button theme-button ml-2">
+          Dark
+        </button>
+      </div>
+      <div class="content" id="home-content">
+        <section class="welcome-section">
+          <h2>I'm Arjin</h2>
+          <p>
+            Dive into the Time Machine<br />
+            Enjoy the nostalgia of the early 2000s with this classic design.
+          </p>
+          <div class="mt-4">
+            <a
+              target="_blank"
+              href="https://www.youtube.com/channel/UCyPxyoUDig1CL2Bghz9R_GA"
+              class="xp-button"
+              >YouTube</a
+            >
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/arjinalbay/"
+              class="xp-button"
+              >LinkedIn</a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/ArjinAlbay"
+              class="xp-button"
+              >GitHub</a
+            >
+            <a
+              target="_blank"
+              href="https://flowcv.com/resume/kts596u85o"
+              class="xp-button"
+              >CV</a
+            >
+          </div>
+        </section>
+        <div class="flex justify-between items-center">
+          <h2 style="text-decoration: underline">Recent Posts</h2>
+          <div class="relative">
+            <input
+              type="text"
+              id="search-bar"
+              class="xp-button px-2 py-1"
+              placeholder="Search posts..."
+            />
+            <button id="clear-search" class="absolute right-0 top-0 mr-2">
+              &times;
+            </button>
+          </div>
+        </div>
+        <ul id="posts-list">
+          <!-- Post titles will go here -->
+        </ul>
+        <div
+          id="pagination"
+          class="pagination flex justify-center mt-4 space-x-2"
+        >
+          <!-- Pagination buttons will go here -->
+        </div>
+      </div>
+      <div class="content" id="projects-content" style="display: none">
+        <ul id="projects-list">
+          <!-- Project titles and descriptions will be dynamically added here -->
+        </ul>
+      </div>
+      <div class="footer">
+        &copy; 2024 Arjin's PX Blog. All rights reserved.
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="posts.js"></script>
+  </body>
+</html>
